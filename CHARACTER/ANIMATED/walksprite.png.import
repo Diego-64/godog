@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b10lupy01576p"
-path="res://.godot/imported/tileset_mazmorra.png-c631227f47d98f5f2871bc7fefbc7ab9.ctex"
+uid="uid://cn67kq78lvci"
+path="res://.godot/imported/walksprite.png-0e20a38e86610f5089fda04e7a4ae350.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MAPA/TEXTURA_NIVELES/tileset_mazmorra.png"
-dest_files=["res://.godot/imported/tileset_mazmorra.png-c631227f47d98f5f2871bc7fefbc7ab9.ctex"]
+source_file="res://CHARACTER/ANIMATED/walksprite.png"
+dest_files=["res://.godot/imported/walksprite.png-0e20a38e86610f5089fda04e7a4ae350.ctex"]
 
 [params]
 

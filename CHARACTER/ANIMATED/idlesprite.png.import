@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lciifouyvuko"
-path="res://.godot/imported/sitsprite.png-25e533554c025ef0540302c4ee0b174b.ctex"
+uid="uid://c3ubpcds8q4mg"
+path="res://.godot/imported/idlesprite.png-c91c1c96361ce28cd7651e2ef46cb1c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://PERSONAJE/ANIMATED/sitsprite.png"
-dest_files=["res://.godot/imported/sitsprite.png-25e533554c025ef0540302c4ee0b174b.ctex"]
+source_file="res://CHARACTER/ANIMATED/idlesprite.png"
+dest_files=["res://.godot/imported/idlesprite.png-c91c1c96361ce28cd7651e2ef46cb1c5.ctex"]
 
 [params]
 

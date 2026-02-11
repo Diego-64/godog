@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0ai6xi07xv3f"
-path="res://.godot/imported/jumpsprite.png-17e942315b4aa2df0173ddfe11db9d5d.ctex"
+uid="uid://d3kfbkemj7j4"
+path="res://.godot/imported/runsprite.png-8238a074c3477b9383c8795ecd61c36d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://PERSONAJE/ANIMATED/jumpsprite.png"
-dest_files=["res://.godot/imported/jumpsprite.png-17e942315b4aa2df0173ddfe11db9d5d.ctex"]
+source_file="res://CHARACTER/ANIMATED/runsprite.png"
+dest_files=["res://.godot/imported/runsprite.png-8238a074c3477b9383c8795ecd61c36d.ctex"]
 
 [params]
 

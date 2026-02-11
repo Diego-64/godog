@@ -1,12 +1,12 @@
 [gd_resource type="SpriteFrames" format=3 uid="uid://cyonb2s5rke4y"]
 
-[ext_resource type="Texture2D" uid="uid://cn67kq78lvci" path="res://PERSONAJE/ANIMATED/walksprite.png" id="1_ddpad"]
-[ext_resource type="Texture2D" uid="uid://d3kfbkemj7j4" path="res://PERSONAJE/ANIMATED/runsprite.png" id="2_s1jpt"]
-[ext_resource type="Texture2D" uid="uid://lciifouyvuko" path="res://PERSONAJE/ANIMATED/sitsprite.png" id="3_wglyf"]
-[ext_resource type="Texture2D" uid="uid://beni3gs4wb3l0" path="res://PERSONAJE/ANIMATED/barksprite without lines.png" id="4_e1wnl"]
-[ext_resource type="Texture2D" uid="uid://cmct3j3kaucn7" path="res://PERSONAJE/ANIMATED/barksprite with lines.png" id="5_oh2ds"]
-[ext_resource type="Texture2D" uid="uid://cmbjuhdv2qvbu" path="res://PERSONAJE/ANIMATED/poopsprite.png" id="6_co482"]
-[ext_resource type="Texture2D" uid="uid://0ai6xi07xv3f" path="res://PERSONAJE/ANIMATED/jumpsprite.png" id="7_5trww"]
+[ext_resource type="Texture2D" uid="uid://cn67kq78lvci" path="res://CHARACTER/ANIMATED/walksprite.png" id="1_ddpad"]
+[ext_resource type="Texture2D" uid="uid://d3kfbkemj7j4" path="res://CHARACTER/ANIMATED/runsprite.png" id="2_s1jpt"]
+[ext_resource type="Texture2D" uid="uid://lciifouyvuko" path="res://CHARACTER/ANIMATED/sitsprite.png" id="3_wglyf"]
+[ext_resource type="Texture2D" uid="uid://beni3gs4wb3l0" path="res://CHARACTER/ANIMATED/barksprite without lines.png" id="4_e1wnl"]
+[ext_resource type="Texture2D" uid="uid://cmct3j3kaucn7" path="res://CHARACTER/ANIMATED/barksprite with lines.png" id="5_oh2ds"]
+[ext_resource type="Texture2D" uid="uid://cmbjuhdv2qvbu" path="res://CHARACTER/ANIMATED/poopsprite.png" id="6_co482"]
+[ext_resource type="Texture2D" uid="uid://0ai6xi07xv3f" path="res://CHARACTER/ANIMATED/jumpsprite.png" id="7_5trww"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e80bn"]
 atlas = ExtResource("5_oh2ds")

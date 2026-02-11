@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmct3j3kaucn7"
-path="res://.godot/imported/barksprite with lines.png-e1d90cee735586bf7fad77e1ad3ec628.ctex"
+uid="uid://0ai6xi07xv3f"
+path="res://.godot/imported/jumpsprite.png-195dfafd879c4354054eee4dec45aad4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://PERSONAJE/ANIMATED/barksprite with lines.png"
-dest_files=["res://.godot/imported/barksprite with lines.png-e1d90cee735586bf7fad77e1ad3ec628.ctex"]
+source_file="res://CHARACTER/ANIMATED/jumpsprite.png"
+dest_files=["res://.godot/imported/jumpsprite.png-195dfafd879c4354054eee4dec45aad4.ctex"]
 
 [params]
 

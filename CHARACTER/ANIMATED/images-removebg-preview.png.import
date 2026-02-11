@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3ubpcds8q4mg"
-path="res://.godot/imported/idlesprite.png-2e7b40e217804251eef140228f2734c4.ctex"
+uid="uid://dbr6mp1thaakp"
+path="res://.godot/imported/images-removebg-preview.png-86a089b4abdcb492df9a1c65a75ccb23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://PERSONAJE/ANIMATED/idlesprite.png"
-dest_files=["res://.godot/imported/idlesprite.png-2e7b40e217804251eef140228f2734c4.ctex"]
+source_file="res://CHARACTER/ANIMATED/images-removebg-preview.png"
+dest_files=["res://.godot/imported/images-removebg-preview.png-86a089b4abdcb492df9a1c65a75ccb23.ctex"]
 
 [params]
 

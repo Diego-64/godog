@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://swy6ifs7delp"]
 
-[ext_resource type="TileSet" uid="uid://dmptguhbw0lew" path="res://MAPA/TEXTURA_NIVELES/TEXTURA_NIVELES.tres" id="1_76wnt"]
-[ext_resource type="Texture2D" uid="uid://b10lupy01576p" path="res://MAPA/TEXTURA_NIVELES/tileset_mazmorra.png" id="2_qef7w"]
+[ext_resource type="TileSet" uid="uid://dmptguhbw0lew" path="res://MAP/TEXTURE_LEVELS/TEXTURA_NIVELES.tres" id="1_76wnt"]
+[ext_resource type="Texture2D" uid="uid://b10lupy01576p" path="res://MAP/TEXTURE_LEVELS/tileset_mazmorra.png" id="2_qef7w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n0rjh"]
 texture = ExtResource("2_qef7w")

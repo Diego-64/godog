@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://c44ywah12bs13"]
 
-[ext_resource type="TileSet" uid="uid://dmptguhbw0lew" path="res://MAPA/TEXTURA_NIVELES/TEXTURA_NIVELES.tres" id="1_p6thc"]
+[ext_resource type="TileSet" uid="uid://dmptguhbw0lew" path="res://MAP/TEXTURE_LEVELS/TEXTURA_NIVELES.tres" id="1_p6thc"]
 
 [node name="MAPA" type="Node2D" unique_id=990678930]
 
