@@ -3,6 +3,8 @@ extends CharacterBody2D
 @export var animation: AnimatedSprite2D
 @export var checkpoint_scene: PackedScene
 
+@onready var checkpoint_label = get_node("/root/Mundo/CanvasLayer/CheckpointLabel")
+
 var _walk_speed: float = 150.0
 var _run_speed: float = 200.0
 var _jump_speed: float = -400.0
@@ -11,8 +13,18 @@ var _bone_speed: float = 1
 var spawn_point = Vector2.ZERO 
 var doing_pop = false
 
+var pop_count = 0
+var max_pops = 3
+
+
 func _physics_process(delta: float) -> void:
 
+	#pop-animation stop
+	if doing_pop:
+		velocity = Vector2.ZERO
+		move_and_slide()
+		return
+	
 	#dog gravity
 	velocity += get_gravity() * delta
 
@@ -51,7 +63,7 @@ func _physics_process(delta: float) -> void:
 			animation.play("walk")
 	else:
 		animation.play("idle")
-	if Input.is_action_just_pressed("pop") and !doing_pop:
+	if Input.is_action_just_pressed("pop") and !doing_pop and is_on_floor() and pop_count < max_pops:
 		do_pop()	
 		
 	#map limit 
@@ -79,11 +91,13 @@ func make_checkpoint():
 	
 func do_pop():
 	doing_pop = true
+	pop_count += 1
 	animation.play("pop")
 	await animation.animation_finished
 	make_checkpoint()
 	doing_pop = false
-		
+
+
 
 #Whenever godog collects a bone, its speed increases
 func collect_bone():

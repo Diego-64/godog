@@ -1,10 +1,13 @@
 [gd_scene format=4 uid="uid://b1e68qr7vyk5o"]
 
+[ext_resource type="PackedScene" uid="uid://jr1onn3s4b5g" path="res://Scenes/canvas_layer.tscn" id="1_myvm1"]
 [ext_resource type="TileSet" uid="uid://ccdpbfcvlao47" path="res://TileSet/forest.tres" id="1_wijl4"]
 [ext_resource type="PackedScene" uid="uid://cti67b57o2o2e" path="res://Scenes/player.tscn" id="2_e0an3"]
 [ext_resource type="PackedScene" uid="uid://b7lnhwuwx2qi7" path="res://Scenes/bones.tscn" id="3_p3ir5"]
 
 [node name="Node2D" type="Node2D" unique_id=737151001]
+
+[node name="CanvasLayer" parent="." unique_id=491609004 instance=ExtResource("1_myvm1")]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1526957896]
 position = Vector2(96, 0)

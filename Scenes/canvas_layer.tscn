@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://jr1onn3s4b5g"]
+
+[ext_resource type="Script" uid="uid://bqhhimmnih5" path="res://Scripts/canvas_layer.gd" id="1_5oaki"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=491609004]
+script = ExtResource("1_5oaki")
+
+[node name="checkpoint_label" type="Label" parent="." unique_id=1560553916]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Checkpoints: 0"
