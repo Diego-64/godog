@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cgqn720c4vu1g"]
 
 [ext_resource type="StyleBox" uid="uid://y0l0nka4y4gl" path="res://button.tres" id="1_emv3i"]
-[ext_resource type="Script" uid="uid://sgftihdtxqur" path="res://Scripts/pause.gd" id="1_k0w1u"]
+[ext_resource type="Script" uid="uid://sgftihdtxqur" path="res://Scripts/interfaces/pause.gd" id="1_k0w1u"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=759421947]
 

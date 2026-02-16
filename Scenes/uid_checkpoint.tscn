@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://jr1onn3s4b5g"]
 
-[ext_resource type="Script" uid="uid://bqhhimmnih5" path="res://Scripts/canvas_layer.gd" id="1_5oaki"]
-[ext_resource type="Texture2D" uid="uid://50qnes4desmu" path="res://Photos/flag.png" id="2_q85f0"]
+[ext_resource type="Script" uid="uid://bqhhimmnih5" path="res://Scripts/uid_checkpoint.gd" id="1_lvp5k"]
+[ext_resource type="Texture2D" uid="uid://50qnes4desmu" path="res://Photos/flag.png" id="2_1cffk"]
 
 [node name="UI_Checkpoint" type="CanvasLayer" unique_id=491609004]
-script = ExtResource("1_5oaki")
+script = ExtResource("1_lvp5k")
 
 [node name="checkpoint_label" type="Label" parent="." unique_id=1560553916]
 unique_name_in_owner = true
@@ -20,4 +20,4 @@ offset_top = 3.9999998
 offset_right = 517.0
 offset_bottom = 516.0
 scale = Vector2(0.06513314, 0.061079904)
-texture = ExtResource("2_q85f0")
+texture = ExtResource("2_1cffk")

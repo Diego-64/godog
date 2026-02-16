@@ -3,7 +3,7 @@ extends CharacterBody2D
 @export var animation: AnimatedSprite2D
 @export var checkpoint_scene: PackedScene
 
-@onready var checkpoint_label = get_node("/root/map/CanvasLayer")
+@onready var checkpoint_label = get_node("/root/level/map/CanvasLayer")
 
 
 var _walk_speed: float = 150.0

@@ -273,6 +273,8 @@ animations = [{
 }]
 
 [node name="checkpoint" type="Area2D" unique_id=874541260 groups=["player"]]
+position = Vector2(0, -3)
+scale = Vector2(0.3745134, 0.34654063)
 script = ExtResource("1_e75gc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1545316558]

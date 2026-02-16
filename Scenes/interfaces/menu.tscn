@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://bsdpbqn52g5ng"]
 
-[ext_resource type="Script" uid="uid://qff834t6ay5e" path="res://Scripts/menu.gd" id="1_cayip"]
+[ext_resource type="Script" uid="uid://qff834t6ay5e" path="res://Scripts/interfaces/menu.gd" id="1_cayip"]
 [ext_resource type="Texture2D" uid="uid://b5oxbdpnef4w8" path="res://Photos/dog3.jpg" id="1_xhh6f"]
-[ext_resource type="StyleBox" path="res://buttonColor.tres" id="2_cayip"]
+[ext_resource type="StyleBox" uid="uid://dk2wdjmto6v7s" path="res://buttonColor.tres" id="2_cayip"]
 [ext_resource type="FontFile" uid="uid://b7tgwjxq6408l" path="res://PlaywriteNZBasic-Regular.ttf" id="3_wwsa2"]
-[ext_resource type="StyleBox" path="res://buttonColorH.tres" id="4_158mb"]
+[ext_resource type="StyleBox" uid="uid://cjj2ltfb7d7tm" path="res://buttonColorH.tres" id="4_158mb"]
 [ext_resource type="Texture2D" uid="uid://uea3qbq6lr5x" path="res://Photos/lulugamestudio_logo.png" id="6_jsrd8"]
 
 [sub_resource type="ImageTexture" id="ImageTexture_wwsa2"]

@@ -1,0 +1,110 @@
+[gd_scene format=3 uid="uid://epmoyv7ub6x8"]
+
+[ext_resource type="Script" uid="uid://cq46ojq33iu4v" path="res://Scripts/interfaces/levels_interface.gd" id="1_g6dn8"]
+[ext_resource type="Texture2D" uid="uid://re1juoerih3y" path="res://Photos/dog7.jpg" id="2_28nu5"]
+[ext_resource type="StyleBox" uid="uid://ba1th5pkbq6rn" path="res://buttonColor2.tres" id="3_28nu5"]
+[ext_resource type="Texture2D" uid="uid://uea3qbq6lr5x" path="res://Photos/lulugamestudio_logo.png" id="6_k28ak"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bxcqi"]
+bg_color = Color(0.5991082, 0.46775514, 0.19943759, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g6dn8"]
+bg_color = Color(0.59607846, 0.48235294, 0.12156863, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_28nu5"]
+bg_color = Color(0.78354585, 0.62534463, 0.10827535, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="Options" type="Control" unique_id=427834648]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g6dn8")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=839544532]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.6338258, 0.88989496, 0.93664163, 1)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=789013731]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -384.0
+offset_top = -156.0
+offset_right = 384.0
+offset_bottom = 156.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_28nu5")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1884817569]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -175.0
+offset_top = -135.5
+offset_right = 175.0
+offset_bottom = 135.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="level1" type="Button" parent="VBoxContainer" unique_id=1877525285]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = ExtResource("3_28nu5")
+theme_override_styles/pressed = ExtResource("3_28nu5")
+theme_override_styles/hover = ExtResource("3_28nu5")
+text = "LEVEL 1"
+
+[node name="level2" type="Button" parent="VBoxContainer" unique_id=419437003]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = ExtResource("3_28nu5")
+theme_override_styles/pressed = ExtResource("3_28nu5")
+theme_override_styles/hover = ExtResource("3_28nu5")
+text = "LEVEL 2"
+
+[node name="back" type="Button" parent="VBoxContainer" unique_id=1938650774]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_bxcqi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_g6dn8")
+theme_override_styles/hover = SubResource("StyleBoxFlat_28nu5")
+text = "BACK"
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=1436744004]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 25.0
+offset_right = 4425.0
+offset_bottom = 4425.0
+scale = Vector2(0.036843102, 0.035994504)
+texture = ExtResource("6_k28ak")
+
+[connection signal="pressed" from="VBoxContainer/level1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/level2" to="." method="_on_level_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/back" to="." method="_on_back_pressed"]

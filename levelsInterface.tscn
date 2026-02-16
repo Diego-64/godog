@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://vpnyuwhsgyri"]
+
+[ext_resource type="Script" uid="uid://cq46ojq33iu4v" path="res://Scripts/interfaces/levels_interface.gd" id="1_qm0wt"]
+[ext_resource type="Texture2D" uid="uid://re1juoerih3y" path="res://Photos/dog7.jpg" id="2_yrdoc"]
+[ext_resource type="Texture2D" uid="uid://uea3qbq6lr5x" path="res://Photos/lulugamestudio_logo.png" id="3_05oqk"]
+[ext_resource type="StyleBox" uid="uid://dk2wdjmto6v7s" path="res://buttonColor.tres" id="4_151p2"]
+[ext_resource type="StyleBox" uid="uid://cjj2ltfb7d7tm" path="res://buttonColorH.tres" id="5_ex8lq"]
+
+[node name="levelsInterface" type="Control" unique_id=427834648]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qm0wt")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=839544532]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.6338258, 0.88989496, 0.93664163, 1)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=789013731]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -384.0
+offset_top = -156.0
+offset_right = 384.0
+offset_bottom = 156.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_yrdoc")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=1436744004]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 25.0
+offset_right = 4425.0
+offset_bottom = 4425.0
+scale = Vector2(0.036843102, 0.035994504)
+texture = ExtResource("3_05oqk")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1884817569]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -175.0
+offset_top = -135.5
+offset_right = 175.0
+offset_bottom = 135.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="level1" type="Button" parent="VBoxContainer" unique_id=1341397022]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = ExtResource("4_151p2")
+theme_override_styles/pressed = ExtResource("5_ex8lq")
+theme_override_styles/hover = ExtResource("5_ex8lq")
+text = "LEVEL 1"
+
+[node name="level2" type="Button" parent="VBoxContainer" unique_id=576177513]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = ExtResource("4_151p2")
+theme_override_styles/pressed = ExtResource("5_ex8lq")
+theme_override_styles/hover = ExtResource("5_ex8lq")
+text = "LEVEL 2"
+
+[node name="back" type="Button" parent="VBoxContainer" unique_id=30548445]
+layout_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/level1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/level1" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="VBoxContainer/level1" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="VBoxContainer/level2" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="VBoxContainer/level2" to="." method="_on_level_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/level2" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="VBoxContainer/back" to="." method="_on_back_pressed"]
